@@ -1,0 +1,9 @@
+1. Login (from each page)
+2. Send message
+3. Create song
+4. Edit song
+5. Delete song
+6. Log out (from each page)
+7. Like a song for first time
+8. Like a song several times
+8. Navigate menu bar

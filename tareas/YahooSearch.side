@@ -1,0 +1,56 @@
+{
+  "id": "208d901c-ddcc-477c-9dde-1de9fac2fcc1",
+  "name": "YahooSearch",
+  "url": "https://espanol.yahoo.com",
+  "tests": [{
+    "id": "234a834d-3c73-49a2-b3d7-8a836e4295b8",
+    "name": "Search",
+    "commands": [{
+      "id": "64fcb7c9-0952-4bf0-90d9-e8c9ef8a9b64",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "8e1aba94-03bd-4863-af79-9eb4256d7fc8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=uh-search-box",
+      "value": ""
+    }, {
+      "id": "141d56c1-daba-40b4-abd0-725c15174576",
+      "comment": "",
+      "command": "type",
+      "target": "id=uh-search-box",
+      "value": "selenium"
+    }, {
+      "id": "de4f1871-4340-45b5-a780-851e8374ad4a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=uh-search-button",
+      "value": ""
+    }, {
+      "id": "e0abc77b-0326-4e8e-a64f-eb12102ca515",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "value": "3000"
+    }, {
+      "id": "bd905068-2155-4a0b-865f-9d1d8f079b07",
+      "comment": "",
+      "command": "clickAt",
+      "target": "link=Selenium - Web Browser Automation",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "18003d36-04a4-469d-8fc0-efb8e4d97e33",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["234a834d-3c73-49a2-b3d7-8a836e4295b8"]
+  }],
+  "urls": ["https://espanol.yahoo.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
